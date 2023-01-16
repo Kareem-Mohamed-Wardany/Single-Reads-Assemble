@@ -10,24 +10,24 @@ Output : The program then outputs the assembled sequence to the screen.
 
 <h1>Explain</h1>
 
-<b>#READS</b> 
-<p>CTTA
-ACCA
-TACC
-GGCT
-GCTT
-TTAC</p>
+<b>READS</b> 
+<p>CTTA</p>
+<p>ACCA</p>
+<p>TACC</p>
+<p>GGCT</p>
+<p>GCTT</p>
+<p>TTAC</p>
 
-<b>#GRAPH</b> 
-<p>CTT --> TTA
-ACC --> CCA(E)
-TAC --> ACC
-(S)GGC --> GCT
-GCT --> CTT
-TTA --> TAC</p>
+<b>GRAPH</b> 
+<p>CTT --> TTA</p>
+<p>ACC --> CCA(E)</p>
+<p>TAC --> ACC</p>
+<p>(S)GGC --> GCT</p>
+<p>GCT --> CTT</p>
+<p>TTA --> TAC</p>
 
 
-<b>#PATHS</b> 
+<b>PATHS</b> 
 <p>GGC -> GCT -> CCT -> TTA -> TAC -> ACC -> CCA</p>
 <p>Get first 3 letters in first one and then get last letter in others</p>
 
