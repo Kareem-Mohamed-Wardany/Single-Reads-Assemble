@@ -1,0 +1,24 @@
+#READS 
+CTTA
+ACCA
+TACC
+GGCT
+GCTT
+TTAC
+
+#GRAPH
+CTT --> TTA
+ACC --> CCA(E)
+TAC --> ACC
+(S)GGC --> GCT
+GCT --> CTT
+TTA --> TAC
+
+
+#PATHS
+GGC -> GCT -> CCT -> TTA -> TAC -> ACC -> CCA
+
+Get first 3 letters in first one and then get last letter in others
+
+Genome = GGCTTACCA
+
